@@ -29,8 +29,11 @@
     {
       "type": "vcs",
       "url": "https://github.com/ksjogo/bootstrap_package.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ksjogo/ext-solr.git"
     }
-
   ],
   "require": {
     "php": ">=7.0.0",
@@ -42,6 +45,7 @@
     "helhum/typo3-console": "dev-master",
     "typo3fluid/fluid": "dev-master as 1.0.9",
 
+    "apache-solr-for-typo3/solr": "dev-master",
     "typo3/cms-rsaauth": "^8.3"
   },
   "autoload": {
@@ -63,7 +67,8 @@
       "install-binary": false,
       "active-packages": [
         "introduction",
-        "rsaauth"
+        "rsaauth",
+        "solr"
       ]
     }
   }
