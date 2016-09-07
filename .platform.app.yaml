@@ -88,7 +88,6 @@ hooks:
     vendor/bin/typo3cms extension:activate introduction
     vendor/bin/typo3cms extension:activate rsaauth
     vendor/bin/typo3cms extension:setupactive
-    vendor/bin/typo3cms cache:flush
 
 crons:
   typo3:
